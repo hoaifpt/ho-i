@@ -3,6 +3,7 @@
     "@react-oauth/google": "^0.12.2",
     "@tailwindcss/vite": "^4.1.11",
     "jwt-decode": "^4.0.0",
+    "serve": "^14.2.4",
     "tailwindcss": "^4.1.11"
   },
   "name": "hoài",
@@ -11,7 +12,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview --host",
-    "start": "vite preview --host"
+    "start": "serve -s dist"
   },
   "devDependencies": {
     "vite": "^7.0.5"
